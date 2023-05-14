@@ -4,7 +4,7 @@ terraform {
 
   backend "remote" {
     hostname     = "app.terraform.io"
-    organization = "wallet-connect"
+    organization = "wallet-dm"
     workspaces {
       prefix = "keyserver-"
     }
